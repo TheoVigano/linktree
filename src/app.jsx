@@ -3,7 +3,10 @@ import { Home } from "./pages/home";
 import { About } from "./pages/about";
 import { ThemeProvider } from "./context/ThemeProvider";
 
+
 export function App() {
+  
+
   return (
     <ThemeProvider>
       <Router>
